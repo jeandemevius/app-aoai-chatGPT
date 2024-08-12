@@ -1,3 +1,29 @@
+.uploadButtonRoot {
+  width: 200px;
+  border-radius: 4px;
+  height: 32px;
+  background: radial-gradient(109.81% 107.82% at 100.1% 90.19%, #db0025 33.63%, #ff9810 70.31%, #28c6ff 100%);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Add gap to space between icon and text */
+}
+
+.uploadButtonRoot .ms-Button-icon {
+  color: white;
+  margin-right: 8px; /* Increase margin to the right of the icon */
+}
+
+.uploadButtonRoot span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
 .shareButtonRoot {
   width: 86px;
   height: 32px;
@@ -42,6 +68,10 @@
   }
 
   .historyButtonRoot {
+    width: auto;
+    padding: 0 8px;
+  }
+  .uploadButtonRoot {
     width: auto;
     padding: 0 8px;
   }
